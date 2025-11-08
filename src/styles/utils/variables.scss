@@ -24,7 +24,7 @@ $offsets: (
   }
 }
 
-@for $lastday from 28 through 30 {
+@for $lastday from 28 through 31 {
   .calendar--month-length-#{$lastday} {
     .calendar__day:nth-child(n + #{$lastday + 1}) {
       display: none;
